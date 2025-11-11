@@ -5,15 +5,6 @@ const TimeFormat = '00:00:00';
 export async function main(ns) {
 
     /*
-    ns.hacknet-auto.script for Bitburner v0.47.2
-    Winners don't use copyright
-    
-    Latest version of this script should be at
-        https://github.com/iuriguilherme/netscripts.d
-    Bitburner should be at https://github.com/danielyxie/bitburner
-    
-    This script requires 5.70 GB of RAM to run for 1 thread(s)
-    
     This script will buy a ns.hacknet Node, fully upgrade it and then buy the next
     one in an infinite loop. If the cost of the next upgrade is higher than 
     buying a new ns.hacknet Node, then a new one will be bought before the last one
@@ -79,7 +70,7 @@ export async function main(ns) {
                 ns.hacknet.getCoreUpgradeCost((ns.hacknet.numNodes() - 1), n) === Infinity
             ) {
                 // Only buy nodes up to 23. Past that its not really worth it.
-                if (ns.hacknet.numNodes() < 23) {
+                if (ns.hacknet.numNodes() < 30) {
                     ns.hacknet.purchaseNode();
 
                     displayDashBoard(ns);
