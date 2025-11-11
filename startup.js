@@ -25,7 +25,8 @@ export async function main(ns) {
                         "phantasy",
                         "johnson-ortho",
                         "crush-fitness",
-                        "the-hub"];
+                        "the-hub",
+                        "avmnite-02h"];
 
     // Array of all servers that only need 3 ports opened
     // to gain root access. These have 16 GB of RAM
@@ -35,7 +36,8 @@ export async function main(ns) {
                         "summit-uni",
                         "catalyst",
                         "millenium-fitness",
-                        "rho-construction"];
+                        "rho-construction",
+                        "computek"];
               
     // Array of all servers that only need 4 ports opened
     // to gain root access. These have 32 GB of RAM
@@ -49,7 +51,9 @@ export async function main(ns) {
                         "snap-fitness",
                         "applied-energetics",
                         "zb-def",
-                        "nova-med"];
+                        "nova-med",
+                        "run4theh111z",
+                        "."];
 
     // Array of all servers that only need 5 ports opened
     // to gain root access. These have 16 GB of RAM
@@ -64,7 +68,25 @@ export async function main(ns) {
                         "zeus-med",
                         "infocomm",
                         "taiyang-digital",
-                        "solaris"]
+                        "solaris", 
+                        "fulcrumtech",
+                        "clarkinc",
+                        "fulcrumassets",
+                        "helios",
+                        "microdyne",
+                        "stormtech",
+                        "omnitek",
+                        "blade",
+                        "vitalife",
+                        "4sigma",
+                        "kuai-gong",
+                        "b-and-a",
+                        "The-Cave",
+                        "nwo",
+                        "megacorp",
+                        "powerhouse-fitness",
+                        "ecorp",
+                        "titan-labs"]
 
     // Copy our scripts onto each server that requires 0 ports
     // to gain root access. Then use nuke() to gain admin access and
